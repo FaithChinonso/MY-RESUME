@@ -95,3 +95,8 @@ aside h2 {
   list-style-type: none;
   color: white;
 }
+@media (max-width: 900px) {
+  section {
+    width: 100%;
+  }
+}

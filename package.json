@@ -1,0 +1,19 @@
+{
+  "name": "faithsresume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaithChinonso/MY-RESUME.git"
+  },
+  "author": "Faith Umunnakwe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FaithChinonso/MY-RESUME/issues"
+  },
+  "homepage": "https://github.com/FaithChinonso/MY-RESUME#readme"
+}
