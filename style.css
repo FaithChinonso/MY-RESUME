@@ -20,13 +20,13 @@ body {
 }
 h1 {
   font-size: 2.5rem;
-  margin-bottom: 0.3rem;
+  margin: 0.8rem 0;
 }
 h2 {
-  margin-bottom: 0.3rem;
+  margin: 0.8rem 0;
 }
 h5 {
-  margin-bottom: 0.5rem;
+  margin: 0.8rem 0;
   color: rgb(131, 128, 128);
 }
 section {
@@ -35,14 +35,14 @@ section {
   border-radius: 1rem;
   display: flex;
   justify-content: space-between;
-  height: 100vh;
+  min-height: 100vh;
   padding: 0;
   overflow: hidden;
 }
 
 article {
   width: 65%;
-  margin: 3rem;
+  padding: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -59,7 +59,7 @@ aside {
   flex-direction: column;
   justify-content: flex-start;
   background-color: #190f50;
-  height: 100%;
+
   gap: 3rem;
 }
 aside p {
@@ -97,6 +97,21 @@ aside h2 {
 }
 @media (max-width: 900px) {
   section {
+    width: 90%;
+  }
+}
+@media (max-width: 600px) {
+  section {
     width: 100%;
+    height: max-content;
+    flex-direction: column;
+  }
+  article {
+    padding: 2.5rem;
+    width: 100%;
+  }
+  aside {
+    padding: 1.5rem;
+    flex-direction: row;
   }
 }
